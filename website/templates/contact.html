@@ -1,5 +1,6 @@
 {%extends "base.html"%}
 {%block contacts%}
+
 <section id="contact" class="contact">
     <div class="container">
 
@@ -36,7 +37,7 @@
         </div>
 
         <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+          <form  method="post">
             <div class="row">
               <div class="form-group col-md-6">
                 <label for="name">Your Name</label>
@@ -53,7 +54,7 @@
             </div>
             <div class="form-group">
               <label for="name">Message</label>
-              <textarea class="form-control" name="message" rows="10" required></textarea>
+              <textarea class="form-control" name="message" id="message" rows="10" required></textarea>
             </div>
             <div class="my-3">
               <div class="loading">Loading</div>
@@ -68,8 +69,8 @@
 
     </div>
 </section><!-- End Contact Section -->
-
+<!--
 <iframe src="http://monstermatchunity.s3-website-us-west-1.amazonaws.com/" height= "1500" width="1500px" ="Safari Match"></iframe>
-
+-->
 {%endblock%}
 
