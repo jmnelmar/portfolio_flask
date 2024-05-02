@@ -6,7 +6,8 @@ views = Blueprint("views", __name__)
 def home():
     return render_template("index.html")
 
-@views.route('/', methods=['POST'])
-def sent_email():
-    print("sent")
-    return redirect(url_for('views.home'))
+@views.route('/')
+def contacts_sent_email():
+    return render_template("contacts.html")
+    
+

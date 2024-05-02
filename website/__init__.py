@@ -3,7 +3,9 @@ from os import path
 
 def create_app():
     app = Flask(__name__)
+    app.config['SECRET_KEY'] = 'jkjhbfytwaascefas asf'
     
+
     from .views import views
     from .about import about
     from .resume import resume
