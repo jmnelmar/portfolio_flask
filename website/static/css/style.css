@@ -1097,6 +1097,8 @@ section {
   color: #eaebf0;
 }
 
+#loadOverlay{display: none;}
+
 @media (max-width: 1199px) {
   #footer {
     position: static;
