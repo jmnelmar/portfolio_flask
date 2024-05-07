@@ -26,3 +26,6 @@ def send_email(email_address,subject , message):
     os.chdir(_PATH)
     ezgmail.init()
     ezgmail.send('jmnel.mar@gmail.com',subject,message)
+
+def test_send_mail(value1,value2):
+    pass
